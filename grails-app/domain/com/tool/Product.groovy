@@ -2,7 +2,7 @@ package com.tool
 
 import org.grails.datastore.gorm.GormEntity
 
-class Product implements GormEntity<Product>{
+class Product implements GormEntity<Product> {
 
     String prodCode
     String prodName
