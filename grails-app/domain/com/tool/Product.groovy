@@ -1,7 +1,10 @@
 package com.tool
 
+import grails.gorm.annotation.Entity
 import org.grails.datastore.gorm.GormEntity
 
+
+@Entity
 class Product implements GormEntity<Product> {
 
     String prodCode
