@@ -27,4 +27,5 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 	[pattern: '/**',             filters: 'JOINED_FILTERS']
 ]
 
-grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/product'
+grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/patient'
+grails.plugin.wkhtmltopdf.binary = "C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe"
